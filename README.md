@@ -1,8 +1,12 @@
-# openSTM32_F405RGT6
+# openSTM32F4_LQFP64
 
 ### Schematic
 
 ![schematic](assets/demo/schematic.png)
+
+### Dimension
+
+![dimension](assets/demo/dimension.png)
 
 ### PCB Top
 
