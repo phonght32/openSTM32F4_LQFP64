@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name outline)(type Legacy)(uri ${KIPRJMOD}/kicad-library/object/outline.lib)(options "")(descr ""))
+)
