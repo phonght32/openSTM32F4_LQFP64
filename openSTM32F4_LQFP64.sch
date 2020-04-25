@@ -754,17 +754,6 @@ Wire Wire Line
 Wire Wire Line
 	1550 6850 1800 6850
 Connection ~ 1800 6850
-$Comp
-L Connector:Jack-DC J1
-U 1 1 5EC5DDC2
-P 1000 6950
-F 0 "J1" H 1057 7275 50  0000 C CNN
-F 1 "Jack-DC" H 1057 7184 50  0000 C CNN
-F 2 "Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002" H 1050 6910 50  0001 C CNN
-F 3 "~" H 1050 6910 50  0001 C CNN
-	1    1000 6950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1550 7150 1550 7450
 Wire Wire Line
@@ -2076,7 +2065,7 @@ U 1 1 5ED741CE
 P 7300 6850
 F 0 "U6" H 7440 6896 50  0000 L CNN
 F 1 "outline" H 7440 6805 50  0000 L CNN
-F 2 "footprints:openstm_outline" H 7300 6850 50  0001 C CNN
+F 2 "footprints:openSTM32F4_LQFP64_outline" H 7300 6850 50  0001 C CNN
 F 3 "" H 7300 6850 50  0001 C CNN
 	1    7300 6850
 	1    0    0    -1  
@@ -2159,4 +2148,18 @@ Text GLabel 1500 2500 0    50   Input ~ 0
 PD2
 Text Notes 9500 1800 0    118  ~ 24
 STLINK
+$Comp
+L Connector:Barrel_Jack_Switch J1
+U 1 1 5EA9F141
+P 1000 6950
+F 0 "J1" H 1057 7267 50  0000 C CNN
+F 1 "Barrel_Jack_Switch" H 1057 7176 50  0000 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002" H 1050 6910 50  0001 C CNN
+F 3 "~" H 1050 6910 50  0001 C CNN
+	1    1000 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 7050 1300 6950
+Connection ~ 1300 7050
 $EndSCHEMATC
