@@ -34,7 +34,7 @@ This board auto select power supply when both USB and jackDC are powered.
 
 #### Schematic
 
-[![schematic](/home/phong/Documents/thesis/openSTM32F4_LQFP64/assets/demo/schematic.png)](assets/demo/openSTM32F4_LQFP64.pdf)
+[![schematic](assets/demo/schematic.png)](assets/demo/openSTM32F4_LQFP64.pdf)
 
 #### Dimension
 
