@@ -14,12 +14,12 @@ The STM32F4 series chip inside openSTM32 board is based on ARM Cortex-M4 with fl
 | Microcontroller     | STM32F405RGT6 / 32-bit ARM Cortex-M4 with FPU(168MHz, 225DMIPS) |
 | Sensors             | 3 axis gyroscope, 3 axis accelerometer, 3 axis magnetometer (MPU9250) |
 | Programmer          | JTAG/SWD connector<br />Serial (UART3)                       |
-| Communicaton Ports  | U(S)ART x 3 (asynchronous)<br />I2C x 1<br />SPI x 1 (Full-duplex) |
-| Multimedia          | I2S x 1 (Full-duplex)                                        |
+| Communicaton Ports  | UART x 3<br />I2C x 1<br />SPI x 1                           |
+| Multimedia          | I2S x 1                                                      |
 | Analog input        | ADC channel x 5                                              |
 | Analog output       | DAC channel x 1                                              |
 | PWM                 | Timer PWM x 4                                                |
-| Leds and buttons    | D7 and D8: USB communication<br />D6: 3V3 power on<br />D1: USER LED status x 1<br />SW2: Button reset<br />SW1: USER button |
+| Leds and buttons    | D7 and D8: USB communication<br />D6: 3V3 power on<br />D1: USER LED status<br />SW2: Reset button<br />SW1: USER button |
 | Digital I/O         | 10 pins                                                      |
 | Output power source | 5V max 3A (TPS5430 step-down converter)<br />3V3 max 1A (AMS1117 linear regulator) |
 | Dimensions          | 68 x 64 mm                                                   |
