@@ -2020,17 +2020,6 @@ Text GLabel 1500 3200 0    50   Input ~ 0
 ADC2
 Text GLabel 1500 3100 0    50   Input ~ 0
 ADC3
-$Comp
-L Sensor_Motion:MPU-9250 U4
-U 1 1 5EF4AC70
-P 5750 5100
-F 0 "U4" H 6000 5850 50  0000 C CNN
-F 1 "MPU-9250" H 6300 5850 50  0000 C CNN
-F 2 "Sensor_Motion:InvenSense_QFN-24_3x3mm_P0.4mm" H 5750 4100 50  0001 C CNN
-F 3 "https://store.invensense.com/datasheets/invensense/MPU9250REV1.0.pdf" H 5750 4950 50  0001 C CNN
-	1    5750 5100
-	1    0    0    -1  
-$EndComp
 Text GLabel 2900 2700 2    50   Input ~ 0
 ADC1
 Text GLabel 2900 2800 2    50   Input ~ 0
@@ -2162,4 +2151,15 @@ $EndComp
 Wire Wire Line
 	1300 7050 1300 6950
 Connection ~ 1300 7050
+$Comp
+L Sensor_Motion:MPU-9250 U4
+U 1 1 5EF4AC70
+P 5750 5100
+F 0 "U4" H 6000 5850 50  0000 C CNN
+F 1 "MPU-9250" H 6300 5850 50  0000 C CNN
+F 2 "Sensor_Motion:InvenSense_QFN-24_3x3mm_P0.4mm" H 5750 4100 50  0001 C CNN
+F 3 "https://store.invensense.com/datasheets/invensense/MPU9250REV1.0.pdf" H 5750 4950 50  0001 C CNN
+	1    5750 5100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
