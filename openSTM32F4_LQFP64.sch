@@ -2157,7 +2157,7 @@ U 1 1 5EF4AC70
 P 5750 5100
 F 0 "U4" H 6000 5850 50  0000 C CNN
 F 1 "MPU-9250" H 6300 5850 50  0000 C CNN
-F 2 "Sensor_Motion:InvenSense_QFN-24_3x3mm_P0.4mm" H 5750 4100 50  0001 C CNN
+F 2 "footprints:MPU9250" H 5750 4100 50  0001 C CNN
 F 3 "https://store.invensense.com/datasheets/invensense/MPU9250REV1.0.pdf" H 5750 4950 50  0001 C CNN
 	1    5750 5100
 	1    0    0    -1  
