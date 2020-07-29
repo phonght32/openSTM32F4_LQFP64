@@ -1,4 +1,4 @@
-update=Chủ nhật, 19 Tháng bảy Năm 2020 16:36:02 +07
+update=Thứ hai, 27 Tháng bảy Năm 2020 09:29:01 +07
 version=1
 last_client=kicad
 [general]
@@ -244,7 +244,7 @@ dPairViaGap=0.25
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=assets/demo/
+PlotDirectoryName=/home/phong/Downloads/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
